@@ -12,7 +12,7 @@ This repository documents the design, parts, electronics, and build notes for a 
 
 ---
 
-## Research Notes (verbatim — do not remove)
+## Research Notes
 
 ```
 Boeing 737-900
@@ -91,7 +91,7 @@ Radiolink T8FB 2.4GHz 8 Channels RC Remote Transmitter with R8EF Receiver, Dual 
 
 ## Parts List (derived from research)
 
-> All items below match the detailed research above. Do not remove or alter the researched details.
+> All items below match the detailed research above.
 
 * **Airframe**: Foam / balsa / composite as planned — final fuselage length: **100 cm**
 * **Motors (x2)**: DYS D2830-11 1000KV
@@ -107,105 +107,40 @@ Radiolink T8FB 2.4GHz 8 Channels RC Remote Transmitter with R8EF Receiver, Dual 
   * Flaps: 1–2 × MG90
   * Retract servos (if using servo retracts): 2–3 × high-torque servos (≥5 kg·cm) or dedicated retract actuators
 * **Radio**: Radiolink T8FB transmitter + **R8EF** receiver (8 channels)
-* **Connectors & wiring**: XT60, bullet connectors, 14–16AWG power leads, heatshrink
-* **Misc**: Battery strap, foam padding, servo horns, clevises, pushrods, control horns, pushrod guides
 
 ---
 
-## Electronics & Power System Notes
+## Dial ESC with BEC - Note
 
 * Use **two ESCs**, one per motor; **disable BEC on second ESC** (remove red wire) to avoid BEC conflicts.
-* Calibrate both ESCs together with the TX before mounting props.
-* Place ESCs and motors for airflow cooling; avoid burying ESCs in foam with no vents.
-* Use **Y-lead** or radio mixing for dual-throttle control (one throttle channel from TX split to both ESCs) OR use radio mixing features carefully.
 
 ---
 
 ## Landing Gear Options & Notes
 
-* You can choose between:
+* Options:
 
-  * **Fixed gear** (cheapest and most reliable)
-  * **Manual / mechanical retracts** (cheap, semi-automatic)
-  * **Servo-driven retracts** using high-torque servos (~5–9 kg·cm)
-  * **Electric retract units** (best but expensive)
+  * **Fixed gear** Easy and Cheap
+  * **Servo-driven retracts** using high-torque servos
+  * **Electric retract units** Great performance with easy installation in a small space.(best but expensive)
 
-* For scale look with budget, **partial retract (semi-exposed wheels)** is recommended: reduces drag, easier than full internal bays.
+* Challenges:
+  
+  * The **landing gear** will be slightly longer to achieve the required ground clearance, due to the motor and propeller radius.
+  * **Full retraction** is difficult because of the limited internal space in the model.
+  * **Partial retract (semi-exposed wheels)** helps reduce drag and is easier to implement within the available space.
 
-* If using servo-driven retracts, don’t use MG90 for retraction: use higher torque servos such as MG995/MG996R or a dedicated retract actuator.
+
+* needed to use higher torque servos such as MG995/MG996R or a dedicated one.
 
 ---
 
 ## Flight and Safety Notes
 
 * Target All-Up Weight (AUW): **≤ 1.3 kg** to keep thrust-to-weight and runway requirements safe.
-* Aim for comfortable thrust ≈ **1.3× AUW** across both motors combined.
-* Runway: use smooth tarmac or concrete; avoid grass for first flights.
-* Pre-flight checklist: battery charged, ESCs calibrated, controls correct direction, CG checked, secure battery, props off during static checks.
-
----
-
-## Build Plan (high level)
-
-1. Finalize airframe structure and center of gravity (CG) location.
-2. Mount motors, ESCs, servos, and receiver temporarily.
-3. Place battery and test balance; aim CG at ~25–30% MAC.
-4. Wire ESCs, calibrate throttles, test motor spin without props.
-5. Install control linkages, check throws and directions, set end-points.
-6. Ground test: taxi runs, motor heating, BEC load test.
-7. Maiden flight from smooth runway, conservative trims and gentle rotation.
-
----
-
-## Contribution & Notes for Hackclud
-
-* This README is a living document — add measurement photos, flight logs, and incremental changes here.
-* Preserve the original research block above as it contains important reference numbers used in layout and part selection.
-
----
-
-## License
-
-Add your preferred license here (MIT / CC BY‑SA suggested).
+* Centre of Gravity
 
 ---
 
 **End of README**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Key Features
-
-## Planned Parts List (BOM)
-| Part | Specification |
-| :--- | :--- |
-| **Radio** | FlySky FS-i6X / RadioLink T8FB |
-| **Motors** | 2x 2212 1400KV Brushless |
-| **ESC** | |
-| **Battery** | 3S/4S LiPo |
-| **Controller** | ESP32 (for data logging) |
-
-## Related Projects
-- [Lebrinex](https://lebrinex.vercel.app/) - Library Management System
-- [Tilawanow](https://tilawanow.vercel.app/) - Quran Site
