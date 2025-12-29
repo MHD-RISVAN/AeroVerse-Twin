@@ -40,7 +40,7 @@ model Scale: Scale = 100 / 4200 = 1/42 (dimesion actual body) (1:42)
 
 (reference only, I have the exact scale, Blueprint) image:
 
-[![blueprint]([https://raw.githubusercontent.com/username/repo/main/preview.png)](https://your-site.com](https://github.com/MHD-RISVAN/AeroVerse-Twin/blob/main/boeing_737_900%20-%20Blue_print.jpg?raw=true))
+[![Project Preview](https://raw.githubusercontent.com/MHD-RISVAN/AeroVerse-Twin/refs/heads/main/boeing_737_900%20-%20Blue_print.jpg)](https://your-site.com)
 
 > **Fuselage length = 100cm**
 
