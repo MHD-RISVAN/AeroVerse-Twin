@@ -40,6 +40,9 @@ model Scale: Scale = 100 / 4200 = 1/42 (dimesion actual body) (1:42)
 
 (reference only, I have the exact scale, plan) image:
 
+[![blueprint](https://raw.githubusercontent.com/username/repo/main/preview.png)](https://your-site.com)
+
+
 ```
 
 Assumption:
