@@ -38,10 +38,11 @@ model Scale: Scale = 100 / 4200 = 1/42 (dimesion actual body) (1:42)
 | **Horizontal tail span** | ~1230/42=29.3cm | length of horizontal stabilizer |
 | **Vertical tail height** | ~880/42=21.0cm | vertical stabilizer |
 
-(reference only, I have the exact scale, plan) image:
+(reference only, I have the exact scale, Blueprint) image:
 
-[![blueprint](https://raw.githubusercontent.com/username/repo/main/preview.png)](https://your-site.com)
+[![blueprint]([https://raw.githubusercontent.com/username/repo/main/preview.png)](https://your-site.com](https://github.com/MHD-RISVAN/AeroVerse-Twin/blob/main/boeing_737_900%20-%20Blue_print.jpg?raw=true))
 
+> **Fuselage length = 100cm**
 
 ```
 
